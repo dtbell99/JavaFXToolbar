@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.broadlyapplicable.javafxtoolbar.ToolbarExampleController">
+   <children>
+      <VBox prefHeight="577.0" prefWidth="727.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane>
+               <children>
+                  <Label prefHeight="24.0" prefWidth="356.0" text="Left Aligned Buttons (Default)">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+             <ToolBar>
+              <items>
+                <Button mnemonicParsing="false" text="Left Button 1" />
+                  <Button mnemonicParsing="false" text="Left Button 2" />
+              </items>
+            </ToolBar>
+            <Pane>
+               <children>
+                  <Label prefHeight="24.0" prefWidth="356.0" text="Center Aligned Buttons">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+            <ToolBar>
+              <items>
+                  <Pane HBox.hgrow="ALWAYS" />
+                <Button mnemonicParsing="false" text="Center Button 1" />
+                  <Button mnemonicParsing="false" text="Center Button 2" />
+                  <Pane HBox.hgrow="ALWAYS" />
+              </items>
+            </ToolBar>
+            <Pane>
+               <children>
+                  <Label prefHeight="24.0" prefWidth="356.0" text="Right Aligned Buttons">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+            <ToolBar>
+              <items>
+                  <Pane HBox.hgrow="ALWAYS" />
+                <Button mnemonicParsing="false" text="Right Button 1" />
+                  <Button mnemonicParsing="false" text="Right Button 2" />
+              </items>
+            </ToolBar>
+            <Pane>
+               <children>
+                  <Label prefHeight="24.0" prefWidth="356.0" text="Left Center Right Align Buttons">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+            <ToolBar>
+               <items>
+                  <Button mnemonicParsing="false" text="Left Button 1" />
+                  <Button mnemonicParsing="false" text="Left Button 2" />
+                  <Pane HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" text="Left Button 1" />
+                  <Button mnemonicParsing="false" text="Left Button 2" />
+                  <Pane HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" text="Left Button 1" />
+                  <Button mnemonicParsing="false" text="Left Button 2" />
+               </items>
+            </ToolBar>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
